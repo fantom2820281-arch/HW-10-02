@@ -2,6 +2,7 @@
 # Домашнее задание к занятию  «Базы данных их типы» 
 
 Студент: **Герасин Дмитрий Сергеевич**
+
 Модуль: Redis/memcached
 
 HW-10-02
@@ -208,7 +209,7 @@ print('test:1 =', mc.get('test:1'))
 
 REDIS : Визуализация: как устроена база Redis
 
-  -  ![Diagrama](img/HW-10-02redis.drawio)
+  -  ![Diagrama](img/HW-10-02redis.drawio.png)
 
 
 
