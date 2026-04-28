@@ -209,13 +209,13 @@ print('test:1 =', mc.get('test:1'))
 
 REDIS : Визуализация: как устроена база Redis
 
-  -  ![Diagrama](img/HW-10-02redis.drawio.png)
+![Diagrama](img/HW-redis.drawio.png)
 
 
 
  📦   Для выполнения задания запустим контейнера с базами, и подключимся к redis ⚡ 🔴
 
-  -  [docker DB](HW-10-02/DB-docker/docker-compose.yml)
+[docker DB](HW-10-02/DB-docker/docker-compose.yml)
 
 ```bash
 docker-compose up -d
@@ -315,4 +315,4 @@ KEYS *
 FLUSHALL  # ОЧЕНЬ ОСТОРОЖНО! Удаляет всё
 INFO
 ```
-
+ 
