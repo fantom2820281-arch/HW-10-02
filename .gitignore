@@ -1,0 +1,79 @@
+bloknit.txt
+.env
+.vscode/
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Виртуальные окружения ===
+venv/
+ENV/
+env/
+.venv/
+
+# === База данных и кэш ===
+*.db
+*.sqlite
+*.sqlite3
+instance/
+.webassets-cache/
+
+# === Логи и временные файлы ===
+*.log
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# === Секреты и ключи ===
+*.key
+*.pem
+*.crt
+secrets/
+keys/
+*.secret
+config.local.py
+
+# === Docker ===
+docker-compose.override.yml
+*.tar
+*.zip
+!docker-compose.yml  # ← сам compose оставляем
+
+# === Система ===
+.DS_Store
+Thumbs.db
+*.log
+
+# === Твои личные файлы ===
+bloknot.txt
+notes.md
+*.private
+
+# === IDE ===
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+init-*/

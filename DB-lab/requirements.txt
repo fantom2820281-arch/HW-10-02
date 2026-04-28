@@ -1,0 +1,15 @@
+# PostgreSQL
+psycopg2-binary
+
+# Redis
+redis
+
+# MongoDB
+pymongo
+
+# Neo4j
+neobolt
+
+# Веб-фреймворк (для демонстрации)
+flask
+requests
